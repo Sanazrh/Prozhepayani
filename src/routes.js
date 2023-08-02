@@ -3,6 +3,7 @@ import AppAbout from './components/shared/AppAbout.vue'
 import AppInput from './components/shared/input.vue'
 import AppCoop from './components/shared/cooperation.vue'
 import AppFilm from './components/shared/films.vue'
+import AppConsultant from './components/shared/consultants.vue'
 
 export const Routes=[
     {
@@ -24,5 +25,9 @@ export const Routes=[
     {
         path:'/films', 
         component: AppFilm
+    },
+    {
+        path:'/consultant', 
+        component: AppConsultant
     }
 ]

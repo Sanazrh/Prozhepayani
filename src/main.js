@@ -12,12 +12,14 @@ import AppMenu from './components/shared/AppMenu.vue'
 import AppCoop from './components/shared/cooperation.vue'
 import AppHome from './components/shared/AppHome.vue'
 import AppFilm from './components/shared/films.vue'
+import AppConsultant from './components/shared/consultants.vue'
 import AppSlideshow from './components/shared/slideshow.vue'
 import AppSlideshow2 from './components/shared/slideshowchild.vue'
 import AppHeader from './components/header.vue'
 
 Vue.component('app-about',AppAbout);
 Vue.component('app-footer',AppFooter);
+Vue.component('app-consultant',AppConsultant);
 Vue.component('app-info',AppInfo);
 Vue.component('app-film',AppFilm);
 Vue.component('app-input',AppInput);

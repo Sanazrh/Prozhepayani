@@ -305,7 +305,7 @@
       <br>
       <br>
       <br>
-      <router-link to="/films" class="edame"> موارد بیشتر</router-link>
+      <router-link to="/consultant" class="edame"> موارد بیشتر</router-link>
     </div>
   </section>
 
