@@ -14,7 +14,7 @@
               </h2>
             </div>
             <p>
-              ما اینجاییم تا سلامت روح و روان شما رو تضمین کنیم ! تیم متخصص مرکز ما آماده ارائه انواع خدمات از قبیل مشاوره تحصیلی و خانواده و ...
+              ما اینجاییم تا سلامت روح و روان شما رو تضمین کنیم !  <br> مرکز مشاوره ما با مجوز رسمی از سازمان نظام روانشناسی و مشاوره کشور و وزارت ورزش و جوانان مشغول به فعالیت است. مرکز ما، با هدف تخصصی نمودن امور مشاوره در حوزه‌های گوناگون مرتبط با زندگی فردی و اجتماعی مردم، به ارائه خدمات مشاوره‌ای روزآمد پرداخته است و افتخار دارد که مرکزی منحصر به فرد جهت ارائه این نوع خدمات را بنیان نهاده است.
             </p>
           </div>
         </div>
@@ -30,12 +30,15 @@
           </div>
         </div>
       </div>
+      <br>
+      <br>
+      <br>
       <div class="row">
           <div class="col-sm-12 about-address">
             <address>
-              <p>
+              <h5 class="location">
                 اصفهان - خیابان حکیم نظامی
-              </p>
+              </h5>
             </address>
           </div>
         </div>
@@ -47,8 +50,9 @@
           <div class="container">
             <div class="col-sm-12">
               <h2 class="title text-center">ما اینجاییم ... </h2>
+              <br>
               <div class="contact-map">
-                <img src="src/assets/images/about-img.jpg" alt="Map" />
+                <img src="src/assets/images/location.png" alt="Map" class="image" />
               </div>
             </div>
           </div>
@@ -62,3 +66,16 @@
 
 </div>
 </template>
+<style>
+.image{
+  width:100%;
+}
+.location{
+  background-color:#A0C49D;
+  color:white;
+  border-radius:20px;
+  width:40%;
+  padding:15px;
+  
+}
+</style>
