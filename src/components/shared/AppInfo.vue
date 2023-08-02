@@ -51,30 +51,34 @@
               منو
             </h4>
             <div class="info_links">
-              <a class="active" href="index.html">
+             <router-link to="/">
                 <img src="src/assets/images/nav-bullet.png" alt="">
                 خانه
-              </a>
-              <a class="" href="about.html">
-                <img src="src/assets/images/nav-bullet.png" alt="">
-                نوبت دهی
-              </a>
-              <a class="" href="service.html">
-                <img src="src/assets/images/nav-bullet.png" alt="">
-                سمینار
-              </a>
-              <a class="" href="testimonial.html">
-                <img src="src/assets/images/nav-bullet.png" alt="">
-                محتوای آمورشی
-              </a>
-              <a class="" href="news.html">
+              </router-link>
+              <router-link to="/about">
                 <img src="src/assets/images/nav-bullet.png" alt="">
                 درباره ما
-              </a>
-              <a class="" href="contact.html">
+              </router-link>
+              <router-link to="/about">
                 <img src="src/assets/images/nav-bullet.png" alt="">
-                تماس باما
-              </a>
+                نوبت دهی
+              </router-link>
+              <router-link to="/about">
+                <img src="src/assets/images/nav-bullet.png" alt="">
+                 سمینار
+              </router-link>
+              <router-link to="/films">
+                <img src="src/assets/images/nav-bullet.png" alt="">
+                فیلم‌های آمورشی
+              </router-link>
+              <router-link to="/cooperation">
+                <img src="src/assets/images/nav-bullet.png" alt="">
+                همکاری با ما
+              </router-link>
+              <router-link to="/about">
+                <img src="src/assets/images/nav-bullet.png" alt="">
+                تماس با ما
+              </router-link>
             </div>
           </div>
         </div>
