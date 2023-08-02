@@ -10,16 +10,10 @@
               <br>
               <br>
               <h4>
-                موضوع:{{consultan.name}}
+                {{consultan.name}}
               </h4>
               <p>
-                 توضیحات:{{consultan.expertise}}
-              </p>
-              <p>
-                سخنران:{{consultan.doctor}}
-              </p>
-              <p>
-                مدت زمان:{{consultan.timee}}
+                 حوضه درمان:{{consultan.expertise}}
               </p>
               <a href="">
                 مشاهده
@@ -29,6 +23,7 @@
         </div>
       </div>
     </div>
+    <app-info></app-info>
     <app-footer></app-footer>
     </div>
 </template>
@@ -38,10 +33,12 @@ export default{
   data(){
     return{
       consultans:[
-        {name:'فهیمه رضایی',expertise:'روانشناسی بالینی',img:"src/assets/images/about-img.jpg"},
-        {name:'فهیمه رضایی',expertise:'روانشناسی بالینی',img:"src/assets/images/about-img.jpg"},
-        {name:'فهیمه رضایی',expertise:'روانشناسی بالینی',img:"src/assets/images/about-img.jpg"},
-        {name:'فهیمه رضایی',expertise:'روانشناسی بالینی',img:"src/assets/images/about-img.jpg"},
+        {name:'شکیباقدس',expertise:'روانشناسی کودک',img:"src/assets/images/moshaver1.png"},
+        {name:'حمید احدی',expertise:'روانشناسی بالینی',img:"src/assets/images/moshaver2.png"},
+        {name:'لیلا جبلی',expertise:'روانشناس ارشد',img:"src/assets/images/moshaver3.jpg"},
+        {name:'حمیده نقیبی',expertise:'روانشناسی بالینی',img:"src/assets/images/moshaver5.jpg"},
+        {name:'سارا کمالی ',expertise:'روانشناس ارشد',img:"src/assets/images/moshaver6.jpg"},
+        {name:'آرش رستمی',expertise:'روانشناسی روابط بین فردی',img:"src/assets/images/moshaver4.jpg"}
       ]
     }
   }

@@ -71,6 +71,10 @@
                 <img src="src/assets/images/nav-bullet.png" alt="">
                 فیلم‌های آمورشی
               </router-link>
+              <router-link to="/consultant">
+                <img src="src/assets/images/nav-bullet.png" alt="">
+                مشاوران
+              </router-link>
               <router-link to="/cooperation">
                 <img src="src/assets/images/nav-bullet.png" alt="">
                 همکاری با ما
