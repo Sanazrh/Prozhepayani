@@ -116,11 +116,9 @@
             </div>
           </div>
 
-          <div class="btn-box">
+          <div class="btn-box ff">
             <router-link to="/input" class="btn-1">ورود/ثبت نام</router-link>
-            <a href="" class="btn-2">
-              ادامه مطلب
-            </a>
+            <router-link to="/input" class="btn-1"> نوبت دهی</router-link>
           </div>
         </div>
         <div class="img-box">
@@ -483,5 +481,8 @@
   .edame{
     background-color:#C4D7B2;
     color:white;
+  }
+  .ff{
+    color:black !import;
   }
 </style>

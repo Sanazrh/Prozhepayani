@@ -6,7 +6,9 @@
         <div class="films">
           <div class="childFilm" v-for="consultan in consultans">
             <div class="detail-box " >
-              <img v-bind:src="consultan.img" alt="" />
+              <div>
+                <img v-bind:src="consultan.img" alt="" width=800px height=250px />
+              </div>
               <br>
               <br>
               <h4>
@@ -37,7 +39,7 @@ export default{
         {name:'حمید احدی',expertise:'روانشناسی بالینی',img:"src/assets/images/moshaver2.png"},
         {name:'لیلا جبلی',expertise:'روانشناس ارشد',img:"src/assets/images/moshaver3.jpg"},
         {name:'حمیده نقیبی',expertise:'روانشناسی بالینی',img:"src/assets/images/moshaver5.jpg"},
-        {name:'سارا کمالی ',expertise:'روانشناس ارشد',img:"src/assets/images/moshaver6.jpg"},
+        {name:'سارا کمالی ',expertise:' مشاور تحصیلی',img:"src/assets/images/moshaver6.jpg"},
         {name:'آرش رستمی',expertise:'روانشناسی روابط بین فردی',img:"src/assets/images/moshaver4.jpg"}
       ]
     }

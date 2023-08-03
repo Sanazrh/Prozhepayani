@@ -6,7 +6,9 @@
         <div class="films">
           <div class="childFilm" v-for="films in film">
             <div class="detail-box " >
-              <img v-bind:src="films.img" alt="" />
+              <div>
+                <img v-bind:src="films.img" alt="" width=800px height=250px />
+              </div>
               <br>
               <br>
               <h4>
@@ -38,11 +40,12 @@ export default{
   data(){
     return{
       film:[
-        {name:'آرامش ذهن',timee:'26:00',caption:'بلاتننتالبیگ',doctor:'فهیمه رضایی',img:"src/assets/images/about-img.jpg"},
-        {name:'خود را فراموش نکنید',timee:'7:53',caption:'بلاتننتالبیگ',doctor:'فهیمه رضایی',img:"src/assets/images/about-img.jpg"},
-        {name:'انگیزه بی‌نهایت',timee:'23:03',caption:'بلاتننتالبیگ',doctor:'فهیمه رضایی',img:"src/assets/images/about-img.jpg"},
-        {name:'عشق و خیانت',timee:'19:24',caption:'بلاتننتالبیگ',doctor:'فهیمه رضایی',img:"src/assets/images/about-img.jpg"},
-        {name:'زمان طلایی تحصیل',timee:'15:36',caption:'بلاتننتالبیگ',doctor:'فهیمه رضایی',img:"src/assets/images/about-img.jpg"}
+        {name:'آرامش ذهن',timee:'8:00',caption:'6 تکنیک ساده برای آرام کردن ذهن',doctor:'لیلا جبلی',img:"src/assets/images/aramesh.jpg"},
+        {name:'خود را فراموش نکنید',timee:'27:53',caption:'آثار خود فراموشی و درمان آن',doctor:'لیلا جبلی',img:"src/assets/images/faramosh.jpg"},
+        {name:'انگیزه بی‌نهایت',timee:'23:03',caption:'راه‌های افزایش انگیزه در زندگی',doctor:'حمید احدی',img:"src/assets/images/angize.jpg"},
+        {name:'خیانت',timee:'19:24',caption:'10دلیل روانشناسی خیانت',doctor:'آرش رستمی',img:"src/assets/images/eshq_khiant.jpg"},
+        {name:'زمان طلایی تحصیل',timee:'15:36',caption:'بهترین زمان برای مطالعه چه موقعی است؟',doctor:'سارا کمالی ',img:"src/assets/images/tahsil.jpg"},
+        {name:' اسکیزوفرنی',timee:'15:36',caption:'آشنایی با علائم اسکیزوفرنی',doctor:'لیلا جبلی',img:"src/assets/images/skizoferni.jpg"}
       ]
     }
   }
