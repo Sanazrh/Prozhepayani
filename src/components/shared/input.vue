@@ -3,7 +3,7 @@
 <app-header></app-header>
       <section class="contact_section layout_padding " id="app">
         <div class="container-fluid">
-          <div class="row">
+          <div class="row tt">
             <div class="col-md-5 col-lg-4 offset-md-1 offset-lg-2">
               <div class="form_container">
                 <transition enter-active-class="animated fadeInLeft" >
@@ -37,6 +37,9 @@
                </transition>
               </div>
             </div>
+             <div>
+                <img src="src/assets/images/input.jpg" alt="" />
+               </div>
           </div>
         </div>
     </section>
@@ -54,3 +57,6 @@ export default{
     },
 };
 </script>
+<style>
+  
+</style>

@@ -1,6 +1,7 @@
 @import url("../fonts/Helvetica/Helvetica.ttf");
 @import url("../fonts/Helvetica/HelveticaLt.ttf");
 @import url("../fonts/Helvetica/Helvetica-Bold.ttf");
+@import '@splidejs/splide/dist/css/themes/splide-skyblue.min.css';
 @font-face {
   font-family: vazir;
   src: url('../fonts/vazir-font-v16.1.0/Vazir-Light.woff');

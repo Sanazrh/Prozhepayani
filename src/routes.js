@@ -4,6 +4,7 @@ import AppInput from './components/shared/input.vue'
 import AppCoop from './components/shared/cooperation.vue'
 import AppFilm from './components/shared/films.vue'
 import AppConsultant from './components/shared/consultants.vue'
+import AppReservation from './components/shared/reservation.vue'
 
 export const Routes=[
     {
@@ -29,5 +30,9 @@ export const Routes=[
     {
         path:'/consultant', 
         component: AppConsultant
+    },
+    {
+        path:'/reservation', 
+        component: AppReservation
     }
 ]

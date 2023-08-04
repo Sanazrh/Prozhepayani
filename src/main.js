@@ -2,6 +2,7 @@ import Vue from 'vue'
 import App from './App.vue'
 import VueRouter from 'vue-router'
 import {Routes} from './routes.js'
+import VueSplide from '@splidejs/vue-splide';
 
 
 import AppAbout from './components/shared/AppAbout.vue'
@@ -13,12 +14,13 @@ import AppCoop from './components/shared/cooperation.vue'
 import AppHome from './components/shared/AppHome.vue'
 import AppFilm from './components/shared/films.vue'
 import AppConsultant from './components/shared/consultants.vue'
+import AppReservation from './components/shared/reservation.vue'
 import AppSlideshow from './components/shared/slideshow.vue'
-import AppSlideshow2 from './components/shared/slideshowchild.vue'
 import AppHeader from './components/header.vue'
 
 Vue.component('app-about',AppAbout);
 Vue.component('app-footer',AppFooter);
+Vue.component('app-reservation',AppReservation);
 Vue.component('app-consultant',AppConsultant);
 Vue.component('app-info',AppInfo);
 Vue.component('app-film',AppFilm);
@@ -27,10 +29,10 @@ Vue.component('app-menu',AppMenu);
 Vue.component('app-header',AppHeader);
 Vue.component('app-home',AppHome);
 Vue.component('slideshow',AppSlideshow);
-Vue.component('CarouselSlide',AppSlideshow2);
 Vue.component('app-cooperation',AppCoop);
 
 Vue.use(VueRouter);
+Vue.use(VueSplide);
 
 const router=new VueRouter({
   routes:Routes,

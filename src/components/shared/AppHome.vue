@@ -32,9 +32,9 @@
               <i class="fa fa-search" aria-hidden="true"></i>
             </button>
           </form>
-          <a href="">
+          <router-link to="/input">
             <i class="fa fa-user" aria-hidden="true"></i>
-          </a>
+          </router-link>
         </div>
       </nav>
     </header>
@@ -118,7 +118,7 @@
 
           <div class="btn-box ff">
             <router-link to="/input" class="btn-1">ورود/ثبت نام</router-link>
-            <router-link to="/input" class="btn-1"> نوبت دهی</router-link>
+            <router-link to="/reservation" class="btn-1"> نوبت دهی</router-link>
           </div>
         </div>
         <div class="img-box">
@@ -309,17 +309,14 @@
 
   <!-- end consultans section -->
 
-  <!-- news section -->
+  <!-- seminar section -->
 
   <section class="news_section layout_padding-bottom">
     <div class="container">
       <div class="heading_container">
         <h2>
-          آخرین اخبار
+          سمینار‌ها
         </h2>
-        <p>
-          اخبار مارو دنبال کنید و در جریان آخرین رویداد ها و سمینار های ما قرار بگیرید
-        </p>
       </div>
       <div class="row">
         <div class="col-lg-6 ">
@@ -368,7 +365,7 @@
     </div>
   </section>
 
-  <!-- end news section -->
+  <!-- end seminar section -->
 
 
   <!-- client section -->
