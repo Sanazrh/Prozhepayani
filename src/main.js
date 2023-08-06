@@ -15,11 +15,14 @@ import AppHome from './components/shared/AppHome.vue'
 import AppFilm from './components/shared/films.vue'
 import AppConsultant from './components/shared/consultants.vue'
 import AppReservation from './components/shared/reservation.vue'
+import AppSeminar from './components/shared/seminar.vue'
+import AppPayment from './components/shared/payment.vue'
 import AppSlideshow from './components/shared/slideshow.vue'
 import AppHeader from './components/header.vue'
 
 Vue.component('app-about',AppAbout);
 Vue.component('app-footer',AppFooter);
+Vue.component('app-seminar',AppSeminar);
 Vue.component('app-reservation',AppReservation);
 Vue.component('app-consultant',AppConsultant);
 Vue.component('app-info',AppInfo);
@@ -30,6 +33,7 @@ Vue.component('app-header',AppHeader);
 Vue.component('app-home',AppHome);
 Vue.component('slideshow',AppSlideshow);
 Vue.component('app-cooperation',AppCoop);
+Vue.component('app-payment',AppPayment);
 
 Vue.use(VueRouter);
 Vue.use(VueSplide);

@@ -5,6 +5,8 @@ import AppCoop from './components/shared/cooperation.vue'
 import AppFilm from './components/shared/films.vue'
 import AppConsultant from './components/shared/consultants.vue'
 import AppReservation from './components/shared/reservation.vue'
+import AppSeminar from './components/shared/seminar.vue'
+import AppPayment from './components/shared/payment.vue'
 
 export const Routes=[
     {
@@ -34,5 +36,13 @@ export const Routes=[
     {
         path:'/reservation', 
         component: AppReservation
-    }
+    },
+    {
+        path:'/seminar', 
+        component: AppSeminar
+    },
+            {
+                path:'/payment', 
+                component: AppPayment
+            }
 ]

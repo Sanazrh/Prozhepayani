@@ -178,19 +178,20 @@
 
   <!-- films section -->
 
-  <section class="help_section layout_padding2">
+  <section class="help_section layout_padding2 news-section ">
     <div class="container">
       <div class="row">
-        <div class="col-md-6">
-          <div class="detail-box">
-            <div class="heading_container">
+        <div class="col-lg-6">
+        <div class="heading_container">
               <h2>
                 فیلم‌های آمورشی
               </h2>
             </div>
+          <div class="detail-container">
+            <div class="detail-box">
             <br>
             <p>
-                البلاتن
+                شما می‌توانید بر حسب نیاز روزانه خود از فیلم‌های آمورشی تهیه شده توسط مشاوران و روانشناسان مرکز تهیه شده‌اند استفاده کنید.
             </p>
             <br>
             <br>
@@ -199,10 +200,11 @@
             <br>
             <router-link to="/films"> مشاوره فیلم‌ها</router-link>
           </div>
+          </div>
         </div>
         <div class="col-md-6">
           <div class="img-box">
-            <img src="src/assets/images/help-img.jpg" alt="" />
+            <img src="src/assets/images/learn.png" alt="" />
             <div class="play_btn">
               <button>
                 <i class="fa fa-play" aria-hidden="true"></i>
@@ -215,103 +217,45 @@
   </section>
 
   <!-- end films section -->
+<br>
+<br>
+<br>
 
+  <!-- consultants section -->
 
-  <!-- consultans section -->
-
-  <section class="wedo_section layout_padding">
+ <section class="news_section layout_padding-bottom">
     <div class="container">
-      <div class="heading_container">
+      <div class="row">
+        <div class="col-lg-6 ">
+        <div class="heading_container">
         <h2>
-          مشاوران مجموعه
+          مشاوران و روانشناسان مجموعه
         </h2>
       </div>
-      <div class="row">
-        <div class="col-md-6 col-lg-3">
-          <div class="box pr-0 pr-lg-5">
-            <div class="img-box">
-              <img src="src/assets/images/wedo-img2.png" alt="">
-            </div>
+          <div class="detail_container">
             <div class="detail-box">
-              <h5>
-                
-              </h5>
               <p>
-                 
-              </p>
-              <a href="">
-                ادامه مطلب
-              </a>
+               برای مشاهده مشاوران و روانشناسان مجموعه و حوضه کاری آنها کلیک کنید.
+            </p>
+            </div>
+            <div class="btn-box">
+              <router-link to="/consultant"> ادامه مطلب</router-link>
             </div>
           </div>
         </div>
-        <div class="col-md-6 col-lg-3">
-          <div class="box pr-0 pr-lg-5">
-            <div class="img-box">
-              <img src="src/assets/images/wedo-img3.png" alt="">
-            </div>
-            <div class="detail-box">
-              <h5>
-                
-              </h5>
-              <p>
-                
-              </p>
-              <a href="">
-                ادامه مطلب
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-3">
-          <div class="box pr-0 pr-lg-5">
-            <div class="img-box">
-              <img src="src/assets/images/wedo-img4.png" alt="">
-            </div>
-            <div class="detail-box">
-              <h5>
-                
-              </h5>
-              <p>
-                
-              </p>
-              <a href="">
-                ادامه مطلب
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-3">
-          <div class="box pr-0 pr-lg-5">
-            <div class="img-box">
-              <img src="src/assets/images/wedo-img1.png" alt="">
-            </div>
-            <div class="detail-box">
-              <h5>
-                
-              </h5>
-              <p>
-                
-              </p>
-              <a href="">
-                ادامه مطلب
-              </a>
-            </div>
+        <div class="col-lg-6 ">
+          <div class="img-box">
+            <img class="im" src="src/assets/images/moshaver3.jpg" alt="">
           </div>
         </div>
       </div>
-      <br>
-      <br>
-      <br>
-      <router-link to="/consultant" class="edame"> موارد بیشتر</router-link>
     </div>
   </section>
-
-  <!-- end consultans section -->
+  <!-- end consultants section -->
 
   <!-- seminar section -->
 
-  <section class="news_section layout_padding-bottom">
+  <section class="news_section layout_padding-bottom n">
     <div class="container">
       <div class="heading_container">
         <h2>
@@ -322,9 +266,6 @@
         <div class="col-lg-6 ">
           <div class="detail_container">
             <div class="detail-box">
-              <h4>
-                آخرین خبر
-              </h4>
               <div class="news_social">
                 <a href="">
                   <i class="fa fa-heart" aria-hidden="true"></i>
@@ -346,19 +287,17 @@
                 </a>
               </div>
               <p>
-                روز شمار معکوس سمینار بعدی ما - تا ۳۰ روز دیگر فرصت دارید تا در سمینار بعدی مرکز مشاوره ما ثبت نام کنید همین حالا تا فرصت هست اقدام کنید !! سمینار بعدی ما رایگان است و هیج مبلغی برای شرکت در سمینار از شما گرفته نخواهد شد - موضوع سمینار : روش های نوین پرورش فرزند.
+                روز شمار معکوس سمینار بعدی ما - تا ۳۰ روز دیگر فرصت دارید تا در سمینار بعدی مرکز مشاوره ما ثبت نام کنید همین حالا تا فرصت هست اقدام کنید !!  - موضوع سمینار : روش های نوین پرورش فرزند.
               </p>
             </div>
             <div class="btn-box">
-              <a href="">
-                ادامه مطلب
-              </a>
+              <router-link to="/seminar"> ادامه مطلب</router-link>
             </div>
           </div>
         </div>
         <div class="col-lg-6 ">
           <div class="img-box">
-            <img src="src/assets/images/news-img.jpg" alt="">
+            <img class="im" src="src/assets/images/seminar.jpg" alt="">
           </div>
         </div>
       </div>
@@ -366,106 +305,39 @@
   </section>
 
   <!-- end seminar section -->
-
-
-  <!-- client section -->
-
-  <section class="client_section layout_padding">
-    <div class="container">
-      <div class="heading_container">
-        <h2>
-          نظرات مراجعین
-        </h2>
-      </div>
-      <div class="carousel-wrap ">
-        <div class="owl-carousel">
-          <div class="item">
-            <div class="box">
-              <div class="client_id">
-                <div class="img-box">
-                  <img src="src/assets/images/client-img1.jpg" alt="">
-                </div>
-                <div class="client_detail">
-                  <h5>
-                    Jims thomas
-                  </h5>
-                  <h6>
-                    hidden in the
-                  </h6>
-                </div>
-              </div>
-              <div class="client_text">
-                <p>
-                  If you are going to use a passage of Lorem Ipsum, you need to be sure th
-                  ere isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="item">
-            <div class="box">
-              <div class="client_id">
-                <div class="img-box">
-                  <img src="src/assets/images/client-img2.jpg" alt="">
-                </div>
-                <div class="client_detail">
-                  <h5>
-                    Thomas mor
-                  </h5>
-                  <h6>
-                    Hidden
-                  </h6>
-                </div>
-              </div>
-              <div class="client_text">
-                <p>
-                  If you are going to use a passage of Lorem Ipsum, you need to be sure th
-                  ere isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- end client section -->
-
-
+<br>
+<br>
+<br>
   <!-- cooperation section -->
 
-  <section class="contact_section layout_padding">
+  <section class="news_section layout_padding-bottom">
     <div class="container">
       <div class="row">
-        <div class="col-md-6">
-          <div class="detail-box">
-            <div class="heading_container">
-              <h2>
-                همکاری با ما
-              </h2>
-            </div>
-            <p>
+        <div class="col-lg-6 ">
+        <div class="heading_container">
+        <h2>
+          همکاری با ما
+        </h2>
+      </div>
+          <div class="detail_container">
+            <div class="detail-box">
+              <p>
               در صورت تمایل برای همکاری با مجموعه اطلاعات و رزومه خود را ارسال کنید<br><br>امیدواریم شما نیز بخشی از مجموعه ما برای حال بهتر انسان‌ها باشید 
             </p>
-            <router-link to="/cooperation"> ادامه مطلب</router-link>
+            </div>
+            <div class="btn-box">
+              <router-link to="/cooperation"> ادامه مطلب</router-link>
+            </div>
           </div>
         </div>
-        <div class="col-md-6">
+        <div class="col-lg-6 ">
           <div class="img-box">
-            <div class="stripe_design sd1"></div>
-            <div class="stripe_design sd2"></div>
-            <div class="stripe_design sd3"></div>
-            <div class="stripe_design sd4"></div>
-            <div class="stripe_design sd5"></div>
-            <div class="stripe_design sd6"></div>
-            <img src="src/assets/images/about-img.jpg" alt="" />
+            <img class="im" src="src/assets/images/about-img.jpg" alt="">
           </div>
         </div>
       </div>
     </div>
   </section>
-
   <!-- end cooperation section -->
 
 
@@ -481,5 +353,12 @@
   }
   .ff{
     color:black !import;
+  }
+  .im{
+    padding-left:30px;
+  }
+  .n{
+    background-color:#e9e9e9;
+    padding-top:20px;
   }
 </style>

@@ -4,7 +4,7 @@
     <router-link to="/">خانه</router-link>
     <router-link to="/about">درباره ما</router-link>
     <router-link to="/reservation"> نوبت دهی</router-link>
-    <router-link to="/about">سمینار‌ها</router-link>
+    <router-link to="/seminar">سمینار‌ها</router-link>
     <router-link to="/films"> فیلم‌های آمورشی</router-link>
     <router-link to="/consultant">مشاوران</router-link>
     <router-link to="/cooperation">همکاری با ما</router-link>
