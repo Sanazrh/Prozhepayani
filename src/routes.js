@@ -7,6 +7,10 @@ import AppConsultant from './components/shared/consultants.vue'
 import AppReservation from './components/shared/reservation.vue'
 import AppSeminar from './components/shared/seminar.vue'
 import AppPayment from './components/shared/payment.vue'
+import AppDashboard from './components/shared/dashboard.vue'
+import AppContact from './components/shared/contactPage.vue'
+import AppRegister from './components/shared/register.vue'
+import AppControl from './components/shared/control-panel.vue'
 
 export const Routes=[
     {
@@ -20,6 +24,10 @@ export const Routes=[
     {
         path:'/input', 
         component: AppInput
+    },
+    {
+        path:'/control', 
+        component: AppControl
     },
     {
         path:'/cooperation', 
@@ -41,8 +49,20 @@ export const Routes=[
         path:'/seminar', 
         component: AppSeminar
     },
+    {
+        path:'/contact', 
+        component: AppContact
+    },
+    {
+        path:'/register', 
+        component: AppRegister
+    },
             {
                 path:'/payment', 
                 component: AppPayment
-            }
+            },
+            {
+                path:'/dashboard', 
+                component: AppDashboard
+            },
 ]

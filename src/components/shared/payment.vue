@@ -34,7 +34,7 @@
 		
 		<!-- ... -->
 		
-        <input type="submit send" id="send" value="پرداخت">
+        <input type="submit send" id="send" value="پرداخت" >
         <br>
         <br>
         <br>
@@ -50,6 +50,13 @@ export default{
     data(){
         return{
             price:"120,000"
+        }
+    },
+    watch:{
+        timee:function(){
+            setTimeout(() => {
+                alert(" زمان به پایان رسید لطفا دوباره اقدام کنید!")
+            },300);
         }
     }
 };

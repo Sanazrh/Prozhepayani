@@ -125,7 +125,7 @@
           <div class="carousel slide slider_image_carousel carousel-fade" data-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="src/assets/images/slider-img.jpg" alt="">
+                <img src="src/assets/images/about-img.jpg" alt="">
               </div>
               <div class="carousel-item">
                 <img src="src/assets/images/slider-img2.jpg" alt="">
@@ -239,7 +239,7 @@
             </p>
             </div>
             <div class="btn-box">
-              <router-link to="/consultant"> ادامه مطلب</router-link>
+              <router-link to="/consultant"> مشاهده</router-link>
             </div>
           </div>
         </div>
@@ -291,7 +291,7 @@
               </p>
             </div>
             <div class="btn-box">
-              <router-link to="/seminar"> ادامه مطلب</router-link>
+              <router-link to="/seminar"> مشاهده</router-link>
             </div>
           </div>
         </div>
@@ -326,7 +326,7 @@
             </p>
             </div>
             <div class="btn-box">
-              <router-link to="/cooperation"> ادامه مطلب</router-link>
+              <router-link to="/cooperation"> همکاری</router-link>
             </div>
           </div>
         </div>
@@ -340,10 +340,10 @@
   </section>
   <!-- end cooperation section -->
 
-
   <app-info></app-info>
   <app-footer></app-footer>
-  <slideshow></slideshow>
+  <RouterLink to="/control" class="nav-link">خانه</RouterLink>
+  
   </div>
 </template>
 <style>

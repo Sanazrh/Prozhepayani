@@ -64,6 +64,7 @@ $('.slider_btn_next').on('click', function (e) {
     $('.slider_image_carousel').carousel('next')
 })
 
+// todo list control panel
 
 /** google_map js **/
 
@@ -74,3 +75,10 @@ function myMap() {
     };
     var map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
 }
+
+
+$(document).ready(function(){
+    (".box").on("click",function(){
+        alert("hiiiiiiiiii")
+    })
+})

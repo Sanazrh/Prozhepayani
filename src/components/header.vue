@@ -31,9 +31,9 @@
               <i class="fa fa-search" aria-hidden="true"></i>
             </button>
           </form>
-          <a href="">
+         <router-link to="/input">
             <i class="fa fa-user" aria-hidden="true"></i>
-          </a>
+          </router-link>
         </div>
       </nav>
     </header>

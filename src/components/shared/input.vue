@@ -17,7 +17,7 @@
 				            <span>
                       <button type="button" class="btn btn-default" v-on:click="showMe=!showMe">وارد شوید</button>
 				            </span>
-                    <button type="button" class="btn btn-default">ثبت نام</button>
+                    <RouterLink to='/register' type="button" class="btn btn-default">ثبت نام</RouterLink>
                   </form>
                   </div>
                 </transition>
@@ -31,7 +31,7 @@
                     <span>
                       <button type="button" class="btn btn-default" v-on:click="showMe=!showMe">ثبت نام </button>
                     </span>
-                    <button type="button" class="btn btn-default" v-on:click.prevent="CheckUserName">ورود</button>
+                    <router-link to="/contact" type="button" class="btn btn-default" v-on:click.prevent="CheckUserName">ورود</router-link>
                   </form>
                 </div>
                </transition>
@@ -49,12 +49,15 @@
 </template>
 
 <script>
+import { RouterLink } from 'vue-router';
+
 export default{
-    data: function(){
-        return{
-            showMe:true
+    data: function () {
+        return {
+            showMe: true
         };
     },
+    components: { RouterLink }
 };
 </script>
 <style>

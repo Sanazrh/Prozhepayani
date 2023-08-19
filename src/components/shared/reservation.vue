@@ -62,39 +62,21 @@
 <script>
 export default{
     data(){
-    return{
-      times_morning:[
-        {name:'10:00'},
-        {name:'10:20'},
-        {name:'10:40'},
-        {name:'11:00'},
-        {name:'11:20'},
-        {name:'11:40'},
-        {name:'12:00'}
-      ],
-      times_evening:[
-        {name:'16:00'},
-        {name:'16:20'},
-        {name:'16:40'},
-        {name:'17:00'},
-        {name:'17:20'},
-        {name:'17:40'},
-        {name:'18:00'},
-        {name:'18:20'},
-        {name:'18:40'},
-        {name:'19:00'}
-      ],
-       times_day:[
-        {date:'14 مرداد',day:"شنبه"},
-        {date:'15 مرداد',day:"یکشنبه"},
-        {date:'16 مرداد',day:"دوشنبه"},
-        {date:'17 مرداد',day:"سه شنبه"},
-        {date:'18 مرداد',day:"چهارشنبه"},
-        {date:'19 مرداد',day:"پنجشنبه"}
-      ],
-      showMe:true
+        return{
+            showMe:true
+        }
+    },
+    computed:{
+        times_morning(){
+            return this.$store.state.times_morning
+        },
+        times_evening(){
+            return this.$store.state.times_evening
+        },
+        times_day(){
+            return this.$store.state.times_day
+        }
     }
-  }
 };
 </script>
 <style>

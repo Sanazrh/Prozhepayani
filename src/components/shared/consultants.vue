@@ -17,9 +17,7 @@
               <p>
                  حوضه درمان:{{consultan.expertise}}
               </p>
-              <a href="">
-                مشاهده
-              </a>
+              <router-link to="/dashboard"> مشاهده</router-link>
             </div>
           </div>
         </div>
@@ -32,18 +30,11 @@
 
 <script>
 export default{
-  data(){
-    return{
-      consultans:[
-        {name:'شکیباقدس',expertise:'روانشناسی کودک',img:"src/assets/images/moshaver1.png"},
-        {name:'حمید احدی',expertise:'روانشناسی بالینی',img:"src/assets/images/moshaver2.png"},
-        {name:'لیلا جبلی',expertise:'روانشناس ارشد',img:"src/assets/images/moshaver3.jpg"},
-        {name:'حمیده نقیبی',expertise:'روانشناسی بالینی',img:"src/assets/images/moshaver5.jpg"},
-        {name:'سارا کمالی ',expertise:' مشاور تحصیلی',img:"src/assets/images/moshaver6.jpg"},
-        {name:'آرش رستمی',expertise:'روانشناسی روابط بین فردی',img:"src/assets/images/moshaver4.jpg"}
-      ]
-    }
-  }
+  computed:{
+        consultans(){
+            return this.$store.state.consultans
+        }
+    },
 };
 </script>
 <style> 

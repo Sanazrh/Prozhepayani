@@ -59,11 +59,11 @@
                 <img src="src/assets/images/nav-bullet.png" alt="">
                 درباره ما
               </router-link>
-              <router-link to="/about">
+              <router-link to="/reservation">
                 <img src="src/assets/images/nav-bullet.png" alt="">
                 نوبت دهی
               </router-link>
-              <router-link to="/about">
+              <router-link to="/seminar">
                 <img src="src/assets/images/nav-bullet.png" alt="">
                  سمینار
               </router-link>
