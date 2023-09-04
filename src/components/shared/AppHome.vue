@@ -304,7 +304,6 @@
   <app-callus></app-callus>
   <app-info></app-info>
   <app-footer></app-footer>
-  <RouterLink to="/control" class="nav-link">خانه</RouterLink>
   
   </div>
 </template>
