@@ -1,7 +1,7 @@
 <template>
     <div class="overlay-content">
     <router-view></router-view>
-    <router-link to="/">خانه</router-link>
+    <router-link to="/home">خانه</router-link>
     <router-link to="/about">درباره ما</router-link>
     <router-link to="/reservation"> نوبت دهی</router-link>
     <router-link to="/seminar">سمینار‌ها</router-link>

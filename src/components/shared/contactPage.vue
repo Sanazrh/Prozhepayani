@@ -4,7 +4,7 @@
         <div class="container bod">
         <div class="card ">
             <div class="card-img">
-                <img src="src/assets/images/moshaver2.png" alt="" width:300px height:250>
+                <img src="src/assets/images/snz.jpg" alt="" width:300px height:250>
             </div>
             <br>
             <h2> ساناز رحیمیان</h2>
@@ -14,10 +14,10 @@
         </div>
         <ul class="ull" v-show="showme">
             <li><h5 href="" class="aa">سن:22 </h5>
-            <li><h5 href="" class="aa">شماره تماس:09130001111 </h5>
+                <li ><a href="" class="aa"><i class="fa fa-phone " aria-hidden="true"></i>شماره تماس:0913000111 </a></li>
             <li><h5 href="" class="aa">آدرس:اصفهان-بهارستان-خیابان الفت </h5>
                 <li><h5 href="" class="aa">سابقه :<br>مشاوره تحصیلی 22/5/1402 <br>مشاوره تحصیلی 20/4/1402</h5>
-            <li><a href="" class="aa f"><i aria-hidden="true"></i>e-mail:</a></li>
+                    <li><a href="" class="aa ltr"><i class="fa fa-envelope ltr" aria-hidden="true"></i>e-mali:snz.rhn.2@gmail.com</a></li>
         </ul>
     </div>
     <app-info></app-info>
@@ -58,10 +58,13 @@ export default{
 }
 
 .card-img img{
-    width: 250px;
+    width: 120px;
 
 }
-
+.ltr{
+    display: flex;
+    flex-flow: row-reverse wrap;
+}
 .card h2{
     margin-right: 1.5rem;
     color: #222;
@@ -104,7 +107,7 @@ export default{
     cursor: pointer;
 }
 .parent img{
-    width:300px;
-    header:250;
+    width:30px;
+    height: 10px;
 }
 </style>

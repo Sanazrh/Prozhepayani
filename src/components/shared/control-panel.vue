@@ -3,21 +3,24 @@
        <con-header></con-header>
        <br>
        <con-sidebar></con-sidebar>
+       <br>
+       <br>
        <con-box></con-box>
        <div class="childd">
         <con-chat></con-chat>
-       <con-todo2 class="aa"></con-todo2>
+       <con-todo class="aa"></con-todo>
        </div>
-       
     </div>
-    
   </template>
   
   <script>
 import { RouterLink } from 'vue-router';
 
   export default{
-    components: { RouterLink }
+    components: { RouterLink },
+    mounted(){
+      
+    }
 };
   </script>
 
@@ -25,7 +28,7 @@ import { RouterLink } from 'vue-router';
         .aa .fa,.aa .fas,.aa .far{
             font-family:'FontAwesome';
         }
-        .childd{
+.childd{
   display:flex;
   flex-flow:row nowrap;
   width:78%;

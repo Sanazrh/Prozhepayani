@@ -2,42 +2,7 @@
   <div>
     <div class="hero_area">
     <!-- header section strats -->
-    <header class="header_section">
-      <nav class="navbar navbar-expand-lg custom_nav-container">
-        <div class="custom_menu-btn">
-          <button onclick="openNav()">
-            <span class="s-1"> </span>
-            <span class="s-2"> </span>
-            <span class="s-3"> </span>
-          </button>
-        </div>
-        <div id="myNav" class="overlay">
-          <div class="menu_btn-style ">
-            <button onclick="closeNav()">
-              <span class="s-1"> </span>
-              <span class="s-2"> </span>
-              <span class="s-3"> </span>
-            </button>
-          </div>
-          <app-menu></app-menu>
-        </div>
-        <a class="navbar-brand" href="index.html">
-          <span>
-            مرکز مشاوره
-          </span>
-        </a>
-        <div class="user_option">
-          <form class="form-inline">
-            <button class="btn  nav_search-btn" type="submit">
-              <i class="fa fa-search" aria-hidden="true"></i>
-            </button>
-          </form>
-          <router-link to="/input">
-            <i class="fa fa-user" aria-hidden="true"></i>
-          </router-link>
-        </div>
-      </nav>
-    </header>
+    <app-header></app-header>
     <!-- end header section -->
     <!-- slider section -->
     <section class="slider_section position-relative">
@@ -71,44 +36,41 @@
                   </h1>
                 </div>
               </div>
-              <div class="carousel-item">
+              <div class="carousel-item ">
                 <div class="heading_box">
-                  <h1>
+                  <h3>
                     <span>
-                      ما
+                      منبع
                     </span>
                     <span>
-                      در
+                      انرژی
                     </span>
                     <span>
-                      لحظات
+                       درون
                     </span>
                     <span>
-                      سخت
+                      شماست!
                     </span>
-                    <span>
-                      کنارتونیم !
-                    </span>
-                  </h1>
+                  </h3>
                 </div>
               </div>
               <div class="carousel-item">
                 <div class="heading_box">
                   <h1>
                     <span>
-                      ما
+                      تو
                     </span>
                     <span>
-                      در
+                      فوق‌العاده‌ای
                     </span>
                     <span>
-                      لحظات
+                      وقتی
                     </span>
                     <span>
-                      سخت
+                      خودت
                     </span>
                     <span>
-                      کنارتونیم !
+                      هستی !
                     </span>
                   </h1>
                 </div>
@@ -339,7 +301,7 @@
     </div>
   </section>
   <!-- end cooperation section -->
-
+  <app-callus></app-callus>
   <app-info></app-info>
   <app-footer></app-footer>
   <RouterLink to="/control" class="nav-link">خانه</RouterLink>
@@ -347,12 +309,13 @@
   </div>
 </template>
 <style>
+
   .edame{
     background-color:#C4D7B2;
     color:white;
   }
   .ff{
-    color:black !import;
+    color:black !important;
   }
   .im{
     padding-left:30px;

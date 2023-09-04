@@ -26,13 +26,23 @@ import AppContact from './components/shared/contactPage.vue'
 import AppRegister from './components/shared/register.vue'
 import AppControl from './components/shared/control-panel.vue'
 import AppHeader from './components/header.vue'
+import callUs from './components/shared/callUs.vue'
 
 import ConHeader from './components/shared/control/main-header.vue'
 import ConSidebar from './components/shared/control/main-sidebar.vue'
 import ConBox from './components/shared/control/small-box.vue'
 import ConChat from './components/shared/control/direct-chat.vue'
-import ConTodo from './components/shared/control/todoList.vue'
-import ConTodo2 from './components/shared/control/todo.vue'
+import ConCseminar from './components/shared/control/creatSeminar.vue'
+import ConTodo from './components/shared/control/todo.vue'
+import Conafilm from './components/shared/control/addFilm.vue'
+import editFilm from './components/shared/control/editFilm.vue'
+import massageList from './components/shared/control/massageList.vue'
+import fff from './components/shared/control/cooperationList.vue'
+import editAdmin from './components/shared/control/editAdmin.vue'
+import editConsultant from './components/shared/control/editConsultant.vue'
+import reservationList from './components/shared/control/reservationList.vue'
+import chartseminar from './components/shared/control/chartseminar.vue'
+import chartreserve from './components/shared/control/chartreserve.vue'
 
 
 Vue.component('app-about',AppAbout);
@@ -53,13 +63,23 @@ Vue.component('app-contact',AppContact);
 Vue.component('app-payment',AppPayment);
 Vue.component('app-register',AppRegister);
 Vue.component('app-dashboard',AppDashboard);
+Vue.component('app-callus',callUs);
 
 Vue.component('con-header',ConHeader);
 Vue.component('con-sidebar',ConSidebar);
 Vue.component('con-box',ConBox);
 Vue.component('con-chat',ConChat);
+Vue.component('con-cseminar',ConCseminar);
 Vue.component('con-todo',ConTodo);
-Vue.component('con-todo2',ConTodo2);
+Vue.component('con-afilm',Conafilm);
+Vue.component('con-editfilm',editFilm);
+Vue.component('con-massageList',massageList);
+Vue.component('con-cooperationList',fff);
+Vue.component('con-editadmin',editAdmin);
+Vue.component('con-editconsultant',editConsultant);
+Vue.component('con-reservationList',reservationList);
+Vue.component('con-chartseminar',chartseminar);
+Vue.component('con-chartreserve',chartreserve);
 
 
 Vue.use(VueRouter);

@@ -29,7 +29,7 @@
           <span class="direct-chat-timestamp float-right">23 Jan 2:00 pm</span>
         </div>
         <!-- /.direct-chat-infos -->
-        <img class="direct-chat-img" src="/docs/3.2/assets/img/user1-128x128.jpg" alt="message user image">
+        <img class="direct-chat-img" src="src/assets/images/control-panel2.png" alt="message user image">
         <!-- /.direct-chat-img -->
         <div class="direct-chat-text">
           فیلم جدید چه زمانی بارگذاری می‌شود؟
@@ -44,7 +44,7 @@
           <span class="direct-chat-timestamp float-left">23 Jan 2:05 pm</span>
         </div>
         <!-- /.direct-chat-infos -->
-        <img class="direct-chat-img" src="/docs/3.2/assets/img/user3-128x128.jpg" alt="message user image">
+        <img class="direct-chat-img" src="src/assets/images/control-panel.png" alt="message user image">
         <!-- /.direct-chat-img -->
         <div class="direct-chat-text">
           فیلم از کدام مشاور و روانشناس؟
@@ -59,10 +59,10 @@
           <span class="direct-chat-timestamp float-right">23 Jan 5:37 pm</span>
         </div>
         <!-- /.direct-chat-infos -->
-        <img class="direct-chat-img" src="/docs/3.2/assets/img/user1-128x128.jpg" alt="message user image">
+        <img class="direct-chat-img" src="src/assets/images/control-panel2.png" alt="message user image">
         <!-- /.direct-chat-img -->
         <div class="direct-chat-text">
-          دکتر 
+         دکتر احدی 
         </div>
         <!-- /.direct-chat-text -->
       </div>
@@ -74,7 +74,7 @@
           <span class="direct-chat-timestamp float-left">23 Jan 6:10 pm</span>
         </div>
         <!-- /.direct-chat-infos -->
-        <img class="direct-chat-img" src="/docs/3.2/assets/img/user3-128x128.jpg" alt="message user image">
+        <img class="direct-chat-img" src="src/assets/images/control-panel.png" alt="message user image">
         <!-- /.direct-chat-img -->
         <div class="direct-chat-text">
           سی ام شهریور

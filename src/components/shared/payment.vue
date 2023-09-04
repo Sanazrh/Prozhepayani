@@ -4,7 +4,7 @@
         <form class="cd-form floating-labels">
         <br>
 	<fieldset>
-		<legend> درگاه پرداخت</legend>
+		<legend class="s"> درگاه پرداخت</legend>
         <p> لطفا اطلاعات کارت بانکی خود را وارد  کنید</p>
         <br>
  
@@ -101,5 +101,8 @@ input{
 	text-align:center;
     border-width:1px;
     background-color:#C4D7B2;
+}
+.s{
+    text-align: center;
 }
 </style>

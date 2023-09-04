@@ -16,12 +16,12 @@ export const store =new Vuex.Store({
             {name:'آرش رستمی',expertise:'روانشناسی روابط بین فردی',img:"src/assets/images/moshaver4.jpg"}
         ],
         film:[
-            {name:'آرامش ذهن',timee:'8:00',caption:'6 تکنیک ساده برای آرام کردن ذهن',doctor:'لیلا جبلی',img:"src/assets/images/aramesh.jpg"},
-            {name:'خود را فراموش نکنید',timee:'27:53',caption:'آثار خود فراموشی و درمان آن',doctor:'لیلا جبلی',img:"src/assets/images/faramosh.jpg"},
-            {name:'انگیزه بی‌نهایت',timee:'23:03',caption:'راه‌های افزایش انگیزه در زندگی',doctor:'حمید احدی',img:"src/assets/images/angize.jpg"},
-            {name:'خیانت',timee:'19:24',caption:'10دلیل روانشناسی خیانت',doctor:'آرش رستمی',img:"src/assets/images/eshq_khiant.jpg"},
-            {name:'زمان طلایی تحصیل',timee:'15:36',caption:'بهترین زمان برای مطالعه چه موقعی است؟',doctor:'سارا کمالی ',img:"src/assets/images/tahsil.jpg"},
-            {name:' اسکیزوفرنی',timee:'15:36',caption:'آشنایی با علائم اسکیزوفرنی',doctor:'لیلا جبلی',img:"src/assets/images/skizoferni.jpg"}
+            {name:'آرامش ذهن',timee:'8:00',caption:'6 تکنیک ساده برای آرام کردن ذهن',doctor:'لیلا جبلی',img:"src/assets/images/aramesh.jpg",id:1},
+            {name:'خود را فراموش نکنید',timee:'27:53',caption:'آثار خود فراموشی و درمان آن',doctor:'لیلا جبلی',img:"src/assets/images/faramosh.jpg",id:2},
+            {name:'انگیزه بی‌نهایت',timee:'23:03',caption:'راه‌های افزایش انگیزه در زندگی',doctor:'حمید احدی',img:"src/assets/images/angize.jpg",id:3},
+            {name:'خیانت',timee:'19:24',caption:'10دلیل روانشناسی خیانت',doctor:'آرش رستمی',img:"src/assets/images/eshq_khiant.jpg",id:4},
+            {name:'زمان طلایی تحصیل',timee:'15:36',caption:'بهترین زمان برای مطالعه چه موقعی است؟',doctor:'سارا کمالی ',img:"src/assets/images/tahsil.jpg",id:5},
+            {name:' اسکیزوفرنی',timee:'15:36',caption:'آشنایی با علائم اسکیزوفرنی',doctor:'لیلا جبلی',img:"src/assets/images/skizoferni.jpg",id:6}
         ],
         times_morning:[
             {name:'10:00'},

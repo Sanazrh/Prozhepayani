@@ -4,7 +4,24 @@
         <br>
         <br>
         <br>
-        <div class="b">
+    <div class=" wedo_section layout_padding" v-if="showMe">
+      <div class="container">
+        <div class="films">
+          <div class="childFilm" v-for="consultan in consultans">
+            <div class="detail-box " >
+              <div>
+                <img v-bind:src="consultan.img" alt="" width=800px height=250px />
+              </div>
+              <h4>
+                {{consultan.name}}
+              </h4>
+              <button v-on:click="showMe=!showMe"> مشاهده نوبت</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+        <div class="b" v-if="!showMe">
             <div class="b w">
                 <h4>انتخاب زمان</h4>
             </div>
@@ -14,10 +31,10 @@
                     <table>
                         <tr>
                             <th>
-                                <button type="button" class="btn btn-default" v-on:click="showMe=true">صبح</button>
+                                <button type="button" class="btn btn-default" v-on:click="showMe2=true">صبح</button>
                             </th>
                              <th>
-                                <button type="button" class="btn btn-default" v-on:click="showMe=false">عصر</button>
+                                <button type="button" class="btn btn-default" v-on:click="showMe2=false">عصر</button>
                             </th>
                         </tr>
                     </table>
@@ -31,7 +48,7 @@
                     </div>
                     <div>
                         <transition enter-active-class="animated fadeInLeft" >
-                            <div class="heading_container" v-if="showMe" >
+                            <div class="heading_container" v-if="showMe2" >
                                 <table class="b">
                                     <tr>
                                         <th v-for="time_morning in times_morning">{{time_morning.name}}</th>
@@ -40,7 +57,7 @@
                             </div>
                         </transition>
                         <transition enter-active-class="animated fadeInLeft" >
-                            <div class="heading_container" v-if="!showMe">
+                            <div class="heading_container" v-if="!showMe2">
                                 <table class="b">
                                     <tr class="b">
                                         <th v-for="time_evening in times_evening">{{time_evening.name}}</th>
@@ -63,6 +80,7 @@
 export default{
     data(){
         return{
+            showMe2:true,
             showMe:true
         }
     },
@@ -75,6 +93,9 @@ export default{
         },
         times_day(){
             return this.$store.state.times_day
+        },
+        consultans(){
+            return this.$store.state.consultans
         }
     }
 };
@@ -151,4 +172,27 @@ export default{
         flex-flow: row wrap;
         gap: 15px;
    }
+   .childFilm{
+  width:30%;
+  flex:30%;
+  box-shadow:0 0 4px 0 rgba(0,0,0,0.2);
+  padding:10px;
+}
+    .films{
+      justify-content:space-between;
+      display:flex;
+      flex-flow:row wrap;
+      width:100%;
+      gap:11px;
+    }
+    img{
+      width:100%
+    }
+    .films p{
+      font-size:14px;
+      margin-bottom:5px;
+    }
+    .films h4{
+      font-size:16px;
+    }
 </style>

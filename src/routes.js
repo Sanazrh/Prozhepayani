@@ -12,9 +12,21 @@ import AppContact from './components/shared/contactPage.vue'
 import AppRegister from './components/shared/register.vue'
 import AppControl from './components/shared/control-panel.vue'
 
+
+import editFilm from './components/shared/control/editFilm.vue'
+import editAdmin from './components/shared/control/editAdmin.vue'
+import editConsultant from './components/shared/control/editConsultant.vue'
+import ConCseminar from './components/shared/control/creatSeminar.vue'
+import fff from './components/shared/control/cooperationList.vue'
+import reservationList from './components/shared/control/reservationList.vue'
+import massageList from './components/shared/control/massageList.vue'
+import chartseminar from './components/shared/control/chartseminar.vue'
+import chartreserve from './components/shared/control/chartreserve.vue'
+import ConTodo from './components/shared/control/todo.vue'
+
 export const Routes=[
     {
-        path:'/',
+        path:'/home',
         component: AppHome
     },
     {
@@ -26,7 +38,7 @@ export const Routes=[
         component: AppInput
     },
     {
-        path:'/control', 
+        path:'/', 
         component: AppControl
     },
     {
@@ -57,12 +69,56 @@ export const Routes=[
         path:'/register', 
         component: AppRegister
     },
-            {
+    {
                 path:'/payment', 
                 component: AppPayment
-            },
-            {
+    },
+    {
                 path:'/dashboard', 
                 component: AppDashboard
-            },
+     },
+
+
+     {
+        path:'/editFilm', 
+        component: editFilm
+    },
+    {
+        path:'/editAdmin', 
+        component: editAdmin
+    },
+    {
+        path:'/editConsultant', 
+        component: editConsultant
+    },
+    {
+        path:'/creatSeminar', 
+        component: ConCseminar
+    },
+    {
+        path:'/cooperationList', 
+        component: fff
+    },
+    {
+        path:'/reservationList', 
+        component: reservationList
+    },
+    {
+        path:'/massageList', 
+        component: massageList
+    },
+    {
+        path:'/ConTodo', 
+        component: ConTodo
+    },
+    {
+        path:'/chartreserve', 
+        component: chartreserve
+    },
+    {
+        path:'/chartseminar', 
+        component: chartseminar
+    },
+
+
 ]

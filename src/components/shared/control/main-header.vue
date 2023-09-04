@@ -1,7 +1,7 @@
 <template>
     <div>
          <!-- Navbar -->
-<nav class="main-header navbar navbar-expand navbar-white navbar-light">
+<nav class="main-header navbar navbar-expand navbar-white navbar-light pos">
 
 <!-- Left navbar links -->
 <ul class="navbar-nav">
@@ -141,5 +141,9 @@
 }
 *{
   direction:ltr;
+}
+.pos{
+  position: fixed;
+  width: 80%;
 }
 </style>

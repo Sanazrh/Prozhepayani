@@ -14,8 +14,9 @@
         <ul class="ull" v-show="showme">
             <li><h5 href="" class="aa">روز‌های حضور: شنبه - سه‌شنبه</h5>
             <li><h5 href="" class="aa">ساعات حضور: تمامی ساعات</h5>
-            <li><a href="" class="aa"><i class="fa fa-instagram" aria-hidden="true"></i>Instagram:</a></li>
-            <li><a href="" class="aa"><i class="fa fa-youtube" aria-hidden="true"></i>youtube:</a></li>
+            <li ><a href="" class="aa"><i class="fa fa-phone " aria-hidden="true"></i>شماره تماس:32665456</a></li>
+            <li><a href="" class="aa ltr"><i class="fa fa-instagram ltr" aria-hidden="true"></i>Instagram:hamid_a_hadi</a></li>
+            <li><a href="" class="aa ltr"><i class="fa fa-envelope ltr" aria-hidden="true"></i>e-mali:hamidahadii@gmail.com</a></li>
         </ul>
     </div>
     <app-info></app-info>
@@ -34,7 +35,10 @@ export default{
 </script>
 
 <style>
-
+.ltr{
+    display: flex;
+    flex-flow: row-reverse wrap;
+}
 .bod{
     width: 100%;
     min-height: 90vh;

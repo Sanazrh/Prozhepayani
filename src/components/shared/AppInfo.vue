@@ -11,12 +11,6 @@
             </h4>
             <div class="contact_link_box">
               <a href="">
-                <i class="fa fa-map-marker" aria-hidden="true"></i>
-                <span>
-                  موقعیت مکانی
-                </span>
-              </a>
-              <a href="">
                 <i class="fa fa-phone" aria-hidden="true"></i>
                 <span>
                   تلفن تماس ۰۱۲۳۴۵۶
@@ -51,7 +45,7 @@
               منو
             </h4>
             <div class="info_links">
-             <router-link to="/">
+             <router-link to="/home">
                 <img src="src/assets/images/nav-bullet.png" alt="">
                 خانه
               </router-link>
@@ -97,6 +91,7 @@
           </div>
         </div>
       </div>
+      
     </div>
   </section>
 

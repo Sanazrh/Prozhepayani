@@ -9,7 +9,7 @@
 	<div class="overlay-content coop">
     <form class="cd-form floating-labels">
 	<fieldset>
-		<legend>اطلاعات خود را وارد کنید</legend>
+		<legend class="s">اطلاعات خود را وارد کنید</legend>
         <br>
  
 		<div class="icon tt">
@@ -122,6 +122,9 @@ input{
 	border-width:2px;
 	BOX-shadow:0 0 4PX 0 RGBA(0,0,0,0.4);
 	padding:15px;
+}
+.s{
+	text-align: center;
 }
 .send{
 	width:12%;

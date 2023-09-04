@@ -16,10 +16,10 @@
                             </div>
                             <div class="detail_container">
                                 <div class="detail-box">
-                                    <p>سخنران: </p>
+                                    <p>سخنران: لیلا جبلی </p>
                                     <p>  تاریخ:  29/5/1402  </p>
                                     <p>ساعت برگزاری:  17:00</p>
-                                    <p>ظرفیت بافیمانده:  {{pr}} نفر</p>
+                                    <p>ظرفیت باقیمانده:  {{pr}} نفر</p>
                                     <p>هزینه سمینار:  120,000 تومان</p>
                                     <div class="btn-box bordr">
                                         <p>جهت رزرو سمینار اطلاعات خواسته شده را وارد و هزینه آن را پرداخت کنید.</p>
@@ -29,10 +29,8 @@
                                         <label class="cd-label" for="cd-name">شماره تماس   </label>
 			                            <input class="user" type="number" name="cd-name" id="cd-num" placeholder="شماره تماس" required>
                                         <br>
-                                        <a class="btn btn-success" v-on:click="decrease">رزرو</a>
                                         <br>
-                                        <br>
-                                        <router-link to="/payment"> پرداخت</router-link>
+                                        <router-link to="/payment" v-on:click="decrease"> پرداخت</router-link>
                                     </div>
                                 </div>
                             </div>

@@ -66,6 +66,11 @@
 				</li>
 			</ul>
 		</div>
+		<br>
+		<div class="tt">
+			<label class="cd-label" for="cd-textarea">عکس خود را وارد کنید:</label>
+  			    <input class="user btn2 inputt2" type="file" name="cd-file" id="cd-file" placeholder="انتخاب عکس" required>
+		</div>
  
 		<!-- ... -->
 
